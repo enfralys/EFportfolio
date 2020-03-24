@@ -1,0 +1,63 @@
+.navbar-flex{
+    width: 100%;
+    display: flex;
+    background-color: white;
+    flex-direction: row ;
+    justify-items: center;
+    justify-content: space-around;
+    box-shadow: #167c80;
+    box-shadow: 0 1px 3px 0 rgba(0,0,0,.1),0 1px 2px 0 rgba(0,0,0,.06)!important;
+}
+
+.navitem-left img{
+ width: 90px;
+ height: 50px;
+
+}
+
+.navitem-left{
+    padding: 10px;
+}
+
+.navitem-right{
+    padding: 10px;
+    align-self: center;
+    margin-left: 2rem;
+    display: flex;
+}
+
+.navitem-right .ancla{
+    padding: 10px;
+    margin-left: 2.5rem!important;
+    cursor: pointer;
+}
+
+
+
+
+footer{
+    height: 90px;
+    padding-top: 2rem;
+    box-shadow: 0 1px 3px 0 rgba(0,0,0,.1),0 1px 2px 0 rgba(0,0,0,.06)!important;
+}
+
+
+#demoFont {
+    font-family: "Comic Sans MS", cursive, sans-serif;
+    font-size: 15px;
+    letter-spacing: 2px;
+    margin-left: 3.5rem!important;
+    word-spacing: 2px;
+    color: #000000;
+    font-weight: normal;
+    text-decoration: none;
+    font-style: normal;
+    font-variant: normal;
+    text-transform: none;
+    }
+
+    .boton{
+        color: #167c80 !important;
+    }
+
+    

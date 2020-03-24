@@ -1,0 +1,35 @@
+<div class="container">
+        <div class="container-flex">
+            <div class="element">
+                <h1> Portafolio como desarrollador UI/Back .</h1> 
+                <p> Desde Microservicios en Nodejs, programas en Java SE, Webapps en angularjs,Angular 8+, trabajos de aplicaciones móvil en frameworks  como nativescript y ionic</p>       
+            </div>
+            <div class="element">
+                <div class="boton-group">
+                    <button *ngFor="let item of tecnologys" (click)="filter(item)" type="button" class=" boton btn btn-outline-primary">{{item}}</button>
+                   
+                </div>
+                
+                
+            </div>
+            <div class="element">
+                <p>Estas viendo filtro por: {{tagfilter}}</p>
+               <div class="cards">
+                <div class="carda"  *ngFor="let item of workselected">
+                    <div class="bar">
+                        <h2>{{item.tittle}} </h2>
+                    <i></i>
+
+                </div>
+                <div  id="anima" class="containeri">
+                  <img class="img-fluid" src="../../../assets/imgs/card-img.jpg" alt="">
+                  <div class="middle">
+                    <button type="button"  class="text btn btn-primary btn-sm">Ver proyecto...</button>                
+                </div>
+                </div>
+                </div>
+               
+                </div>
+            </div>
+        </div>
+</div>
